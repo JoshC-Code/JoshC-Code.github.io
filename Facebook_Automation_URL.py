@@ -7,15 +7,14 @@ locationDict = {
     "48t584hgj": "Hax0R1337",
     "5bjujk4j": "Ub3Hax0R",
 }
-#"C:\Users\joshz\Downloads\Facecbook.xlsx"
 
-os.chdir('c:\\users\joshz\\Downloads')
+os.chdir('')#folder location
 
-fb = 'Facebook.xlsx'
+fb = 'Facebook.xlsx' #file name
 
 wb = openpyxl.load_workbook(fb)
 
-sheet = wb['Sheet1']
+sheet = wb['Sheet1'] #Excel sheet name
 
 for i in range(2,5): #range is the cell number for Link column
 
